@@ -1,11 +1,11 @@
 #include "Correct_polygon.h"
 #include <corecrt_math_defines.h>
 #include <cmath>
-#include <stdexcept>
+#include "MyExcept.h"
 
 CorrectPolygon::CorrectPolygon(int sides, double length){
     if (sides < 5 || sides > 8) {
-        throw std::invalid_argument("Кількість сторін повинна бути від 5 до 8.");
+        throw MyExcept("Кількість сторін повинна бути від 5 до 8.", "Invalid_Argument");
     }
     this->sidesCount = sides;
     this->sideLength = length;

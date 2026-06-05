@@ -42,7 +42,7 @@
     <ClCompile Include="Sector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MyExcpect.cpp">
+    <ClCompile Include="MyExcept.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,7 +71,7 @@
     <ClInclude Include="Sector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MyExcpect.h">
+    <ClInclude Include="MyExcept.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

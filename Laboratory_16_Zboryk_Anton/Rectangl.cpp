@@ -1,7 +1,6 @@
 #include "Rectangl.h"
 #include <cmath>
-#include <stdexcept>
-
+#include "MyExcept.h"
 
 Rectangl::Rectangl(double w, double h){
 	this->width = w;
@@ -20,7 +19,7 @@ Circle* Rectangl::createCircumscribedCircle() const {
 
 Circle* Rectangl::createInscribedCircle() const {
     if (width != height) {
-        throw std::logic_error("Вписане коло можливе лише для квадрату.");
+        throw MyExcept("Вписане коло можливе лише для квадрату.", "Logic_Error");
 	}
     double radius = width / 2;
     return new Circle(radius);

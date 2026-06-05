@@ -2,7 +2,7 @@
 #include "Figure.h"
 #include "Point2D.h"
 #include <vector>
-#include <stdexcept>
+
 
 class Closed_broken_line : public Figure {
 private:

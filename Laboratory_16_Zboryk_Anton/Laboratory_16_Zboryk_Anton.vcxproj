@@ -129,7 +129,7 @@
     <ClCompile Include="Figure.cpp" />
     <ClCompile Include="Laboratory_16_Zboryk_Anton.cpp" />
     <ClCompile Include="Line.cpp" />
-    <ClCompile Include="MyExcpect.cpp" />
+    <ClCompile Include="MyExcept.cpp" />
     <ClCompile Include="Point2D.cpp" />
     <ClCompile Include="Rectangl.cpp" />
     <ClCompile Include="Sector.cpp" />
@@ -140,7 +140,7 @@
     <ClInclude Include="Correct_polygon.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="Line.h" />
-    <ClInclude Include="MyExcpect.h" />
+    <ClInclude Include="MyExcept.h" />
     <ClInclude Include="Point2D.h" />
     <ClInclude Include="Rectangl.h" />
     <ClInclude Include="Sector.h" />

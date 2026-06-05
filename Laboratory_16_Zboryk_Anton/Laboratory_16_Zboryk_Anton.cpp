@@ -14,6 +14,7 @@
 #include "Rectangl.h"
 #include "Sector.h"
 #include "Point2D.h"
+#include "MyExcept.h"
 
 int getSafeInt() {
     int value;
@@ -159,7 +160,7 @@ int main()
                 std::cout << "Некоректний вибір.\n";
             }
         }
-        catch (const std::exception& ex) {
+        catch (MyExcept& ex) {
             std::cout << "Помилка: " << ex.what() << " Спробуйте знову.\n";
         }
     }

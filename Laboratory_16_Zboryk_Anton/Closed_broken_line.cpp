@@ -1,11 +1,11 @@
 #include "Closed_broken_line.h"
 #include "Point2D.h"
 #include <vector>
-#include <stdexcept>
+#include "MyExcept.h"
 
 Closed_broken_line::Closed_broken_line(const std::vector<Point2D>& pts) {
     if (pts.size() < 3) {
-        throw std::invalid_argument("Для замкненої ламаної потрібно мінімум 3 точки.");
+        throw MyExcept("Для замкненої ламаної потрібно мінімум 3 точки.");
     }
     this->points = pts;
 }
